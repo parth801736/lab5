@@ -5,7 +5,8 @@ class Time:
 		self.second = 0
 	
 def print_time(time):
-	print("%.2d:%.2d:%.2d"(time.hour,time.minute,time.second))
+	#print("%.2d:%.2d:%.2d"(time.hour,time.minute,time.second))
+    print('{}:{:02}:{:02}'.format(time.hour, time.minute, time.second))
 time = Time()
 time.hour = 5
 time.minute = 25
