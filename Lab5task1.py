@@ -20,11 +20,11 @@ print(y)
 print(x != y)
 
 p0 = point()
-p0.x = 10
-p0.y = 15
+p0.x = input("Enter value of point x1:")
+p0.y = input("Enter value of point y1:")
 
 p1 = point()
-p1.x = 4
-p1.y = 3
+p1.x = input("Enter value of point x2:")
+p1.y = input("Enter value of point y2:")
 print('Distance is,')
 print(distance_between_points(p1, p0))
